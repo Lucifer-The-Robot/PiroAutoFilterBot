@@ -66,7 +66,7 @@ IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '<b><blockquote>Title : {file_name}</blockquote>\n<blockquote>Jᴏɪɴ ❤️‍🔥 : <a href='https://t.me/Ni_daily_updates'>Uᴘᴅᴀᴛᴇs</a> </blockquote>\n<blockquote>𝙳𝚘𝚗𝚝 𝚏𝚘𝚛𝚐𝚎𝚝 BᴀᴄᴋUᴘ✨ : \n<a href='https://t.me/Ni_Movies'>🦋 Nɪ Mᴏᴠɪᴇs 🦋</a> </blockquote></b>')
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '<blockquote>Title : {file_name}</blockquote>\n<blockquote>Jᴏɪɴ ❤️‍🔥 : <a href='https://t.me/Ni_daily_updates'>Uᴘᴅᴀᴛᴇs</a> </blockquote>\n<blockquote>𝙳𝚘𝚗𝚝 𝚏𝚘𝚛𝚐𝚎𝚝 BᴀᴄᴋUᴘ✨ : \n<a href='https://t.me/Ni_Movies'>🦋 Nɪ Mᴏᴠɪᴇs 🦋</a></blockquote>')
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", '')
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", 'Hᴇʏ {message.from_user.mention},
 
