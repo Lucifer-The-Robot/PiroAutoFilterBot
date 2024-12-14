@@ -68,7 +68,19 @@ AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '<b><blockquote>Title : {file_name}</blockquote>\n<blockquote>Jᴏɪɴ ❤️‍🔥 : <a href='https://t.me/Ni_daily_updates'>Uᴘᴅᴀᴛᴇs</a> </blockquote>\n<blockquote>𝙳𝚘𝚗𝚝 𝚏𝚘𝚛𝚐𝚎𝚝 BᴀᴄᴋUᴘ✨ : \n<a href='https://t.me/Ni_Movies'>🦋 Nɪ Mᴏᴠɪᴇs 🦋</a> </blockquote></b>')
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", '')
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10  \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [[𝖯𝖨𝖱𝖮]](t.me/piroxbots)')
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", 'Hᴇʏ {message.from_user.mention},
+
+Here is the result for your {query}
+
+<b>📝 Title</b>: <a href={url}>{title}</a>
+🎭 Genres: {genres}
+📆 Year: <a href={url}/releaseinfo>{year}</a>
+📈 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+🗣️ Languages : <code>{languages}</code>
+👥 Cast : <code>{cast}</code>
+📀 RunTime: {runtime} Minutes
+📆 Release Info : {release_date}
+🎛 Countries : <code>{countries}</code>\n\n🔰 Pᴏᴡᴇʀᴇᴅ ʙʏ : ɴɪ ᴍᴏᴠɪᴇs')
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
