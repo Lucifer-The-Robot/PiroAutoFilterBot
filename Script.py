@@ -168,7 +168,7 @@ Request Again"""
 
     MELCOW_ENG = """<b>Hey {}, Welcome to {}</b> 
 
-♻️ Pᴏᴡᴇʀᴇᴅ ʙʏ : a href='https://t.me/Ni_Movies'>ɴɪ ᴍᴏᴠɪᴇs</a>"""
+♻️ Pᴏᴡᴇʀᴇᴅ ʙʏ : a href='https://t.me/Ni_Movies'>ɴɪ ᴍᴏᴠɪᴇs</a>
 
 <u>Request Format</u>
 
